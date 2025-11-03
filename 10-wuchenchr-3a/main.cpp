@@ -67,8 +67,46 @@ void findMatches(const dictionary& dict, const grid& g)
 }
 
 
+// Search function
+void search()
+{
+    string gridFileName;
+    string dictFileName;
+    
+    // Read the name of the grid file
+    cout << "Enter the grid file name: ";
+    cin >> gridFileName;
+    
+    cout << "Enter the dictionary file name: ";
+    cin >> dictFileName;
+    
+    // Read the data from input files for grid and dictionary
+    cout << "Loading dictionary from: " << dictFileName << endl;
+    
+    dictionary wordDic;
+    wordDic.readWords(dictFileName);
+    
+    wordDic.sortWords();
+    cout << "Dictionary sorted successfully." << endl;
+    
+    cout << "Loading grid from: " << gridFileName << endl;
+    grid wordGrid(gridFileName);
+    
+    // Display grid info
+    cout << "Size: " << wordGrid.getSize() << "x" << wordGrid.getSize() << endl;
+    cout << "Grid contents:" << endl;
+    cout << wordGrid << endl;
+    
+    // Print out the words found in the dictionary
+    cout << "Word Search Result: " << endl;
+    findMatches(wordDic, wordGrid);
+}
+
 int main() {
-	try {
+	// Call search function
+	search();
+	
+	/* try {
 		dictionary newdic;
 		newdic.readWords("c:\\Dictionary.txt");
 		newdic.sortWords();
@@ -77,6 +115,7 @@ int main() {
 		findMatches(newdic, newgrid);
 		return 0;
 	}
+*/
 	catch (invalid_argument e) {
 		cout << e.what();
 	}
@@ -85,3 +124,4 @@ int main() {
 	}
 
 }
+
