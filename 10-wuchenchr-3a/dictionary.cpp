@@ -25,8 +25,7 @@ void dictionary::readWords(string fileName)
 //Sorts words by alphabetical order
 void dictionary::sortWords()
 {
-	sort(words.begin(), words.end());
-	/*int lowestIndex = 0;
+	int lowestIndex = 0;
 	for (int i = 0; i < words.size() - 1; i++) {
 		lowestIndex = i;
 		for (int j = i + 1; j < words.size(); j++){ 
@@ -37,7 +36,7 @@ void dictionary::sortWords()
 		string temp = words[i];
 		words[i] = words[lowestIndex];
 		words[lowestIndex] = temp;
-	}*/
+	}
 }
 
 //Searches the sorted words vector for a target and returns the index where it is found

@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{A4B04971-55EB-4267-8787-3897291D9FAB}|wuchenchr10-3a\\wuchenchr10-3a.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4B04971-55EB-4267-8787-3897291D9FAB}|wuchenchr10-3a\\wuchenchr10-3a.vcxproj|C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-3a\\10-wuchenchr-3a\\dictionary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A4B04971-55EB-4267-8787-3897291D9FAB}|wuchenchr10-3a\\wuchenchr10-3a.vcxproj|solutionrelative:dictionary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4B04971-55EB-4267-8787-3897291D9FAB}|wuchenchr10-3a\\wuchenchr10-3a.vcxproj|C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-3a\\10-wuchenchr-3a\\dictionary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A4B04971-55EB-4267-8787-3897291D9FAB}|wuchenchr10-3a\\wuchenchr10-3a.vcxproj|solutionrelative:dictionary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B04971-55EB-4267-8787-3897291D9FAB}|wuchenchr10-3a\\wuchenchr10-3a.vcxproj|C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-3a\\10-wuchenchr-3a\\dictionary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A4B04971-55EB-4267-8787-3897291D9FAB}|wuchenchr10-3a\\wuchenchr10-3a.vcxproj|solutionrelative:dictionary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4B04971-55EB-4267-8787-3897291D9FAB}|wuchenchr10-3a\\wuchenchr10-3a.vcxproj|C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-3a\\10-wuchenchr-3a\\grid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "dictionary.h",
               "DocumentMoniker": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-3a\\10-wuchenchr-3a\\dictionary.h",
               "RelativeDocumentMoniker": "dictionary.h",
@@ -50,18 +50,17 @@
               "RelativeToolTip": "dictionary.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-03T14:36:42.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T14:36:42.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "dictionary.cpp",
               "DocumentMoniker": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-3a\\10-wuchenchr-3a\\dictionary.cpp",
               "RelativeDocumentMoniker": "dictionary.cpp",
               "ToolTip": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-3a\\10-wuchenchr-3a\\dictionary.cpp",
               "RelativeToolTip": "dictionary.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-03T14:22:18.42Z",
               "EditorCaption": ""
@@ -88,8 +87,7 @@
               "RelativeToolTip": "grid.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-03T14:24:19.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T14:24:19.054Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "grid.cpp",
               "ViewState": "AgIAABAAAAAAAAAAAAAAACoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-03T14:55:48.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T14:55:48.478Z"
             },
             {
               "$type": "Document",
@@ -112,7 +109,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-3a\\10-wuchenchr-3a\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAgwCYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-03T14:22:21.534Z",
               "EditorCaption": ""
