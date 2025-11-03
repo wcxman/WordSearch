@@ -125,11 +125,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\dictionary.cpp" />
+    <ClCompile Include="..\grid.cpp" />
     <ClCompile Include="..\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\dictionary.h" />
-    <ClInclude Include="..\Matrix.h" />
+    <ClInclude Include="..\d_except.h" />
+    <ClInclude Include="..\d_matrix.h" />
+    <ClInclude Include="..\grid.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Dictionary" />

@@ -5,6 +5,7 @@
 #include <string>
 #include <algorithm>
 #include "dictionary.h"
+#include "grid.h"
 
 using namespace std;
 
@@ -16,16 +17,16 @@ void findMatches(const dictionary& dict, const grid& g)
     const matrix<char>& letterGrid = g.getGrid();
     
     // Define the 8 possible directions (dx, dy)
-    int directions[8][2] = {
-        {0, 1},   // right
-        {1, 0},   // down
-        {0, -1},  // left
-        {-1, 0},  // up
-        {1, 1},   // down-right
-        {1, -1},  // down-left
-        {-1, 1},  // up-right
-        {-1, -1}  // up-left
-    }
+	int directions[8][2] = {
+		{0, 1},   // right
+		{1, 0},   // down
+		{0, -1},  // left
+		{-1, 0},  // up
+		{1, 1},   // down-right
+		{1, -1},  // down-left
+		{-1, 1},  // up-right
+		{-1, -1}  // up-left
+	};
 	
 }
 
@@ -33,7 +34,7 @@ void findMatches(const dictionary& dict, const grid& g)
 int main() {
 	try {
 		dictionary newdic;
-		newdic.readWords("C:\\Dictionary.txt");
+		newdic.readWords("C:\\Dictionary5.txt");
 		cout << newdic.returnIndex(0) << endl;
 		newdic.sortWords();
 		cout << newdic.returnIndex(0) << endl;
