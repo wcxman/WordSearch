@@ -13,12 +13,21 @@ class dictionary
 {
 private:
 	vector<string> words;
+
+	//Helper function for quicksort
+	int partition(int startIndex, int endIndex);
 public:
 	//Reads words from an input file and stores them in a vector
 	void readWords(string fileName);
 
 	//Sorts words by alphabetical order
 	void sortWords();
+
+	//Sorts words by alphabetical order using quick sort
+	void quickSort();
+
+	//Sorts indices startIndex through endIndex
+	void quickSort(int startIndex, int endIndex);
 
 	//Searches the sorted words vector for a target and returns the index where it is found
 	int binarySearch(string target) const;
