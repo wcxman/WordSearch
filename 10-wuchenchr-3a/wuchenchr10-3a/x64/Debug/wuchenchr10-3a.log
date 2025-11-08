@@ -1,3 +1,6 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (wuchenchr10-3a.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  main.cpp
+  dictionary.cpp
+C:\Users\Capta\OneDrive - Northeastern University\Fall 25\Engineering Algorithms\10-wuchenchr-3a\10-wuchenchr-3a\dictionary.cpp(46,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Capta\OneDrive - Northeastern University\Fall 25\Engineering Algorithms\10-wuchenchr-3a\10-wuchenchr-3a\dictionary.cpp(68,38): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Capta\OneDrive - Northeastern University\Fall 25\Engineering Algorithms\10-wuchenchr-3a\10-wuchenchr-3a\dictionary.cpp(70,33): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   wuchenchr10-3a.vcxproj -> C:\Users\Capta\OneDrive - Northeastern University\Fall 25\Engineering Algorithms\10-wuchenchr-3a\10-wuchenchr-3a\x64\Debug\10-wuchenchr-3a.exe

@@ -62,6 +62,44 @@ int dictionary::binarySearch(string target) const
 	return -1; //Returns -1 if no such word exists
 }
 
+//Sorts words by alphabetical order using quick sort
+void dictionary::quickSort()
+{
+	int part = partition(0, words.size()-1);
+	quickSort(0, part - 1);
+	quickSort(part+1, words.size() -1);
+}
+
+//Sorts indices startIndex through endIndex
+void dictionary::quickSort(int startIndex, int endIndex)
+{
+	if (startIndex < endIndex) {
+		int part = partition(startIndex, endIndex);
+		quickSort(startIndex, part - 1);
+		quickSort(part + 1, endIndex);
+	}
+}
+
+//Helper function for quicksort
+int dictionary::partition(int startIndex, int endIndex)
+{
+	string pivotVal = words[endIndex];
+	int i = startIndex - 1;
+	string temp = "";
+	for (int j = startIndex; j < endIndex - 1; j++) {
+		if (words[j] <= pivotVal) {
+			i++;
+			temp = words[i];
+			words[i] = words[j];
+			words[j] = temp;
+		}
+	}
+	temp = words[i+1];
+	words[i+1] = pivotVal;
+	words[endIndex] = temp;
+	return i + 1;
+}
+
 //Returns the word at the inputted index
 string dictionary::returnIndex(int index) const
 {

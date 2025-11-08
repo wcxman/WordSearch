@@ -85,7 +85,7 @@ void search()
 	dictionary wordDic;
 	wordDic.readWords(dictFileName);
 
-	wordDic.sortWords();
+	wordDic.quickSort();
 	cout << "Dictionary sorted successfully." << endl;
 
 	cout << "Loading grid from: " << gridFileName << endl;
