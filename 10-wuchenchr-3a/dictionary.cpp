@@ -106,6 +106,15 @@ string dictionary::returnIndex(int index) const
 	return words[index];
 }
 
+// heapsort function
+void dictionary::heapSort()
+{
+    heap<string> wordHeap;
+    wordHeap.initializeMaxHeap(words);
+    wordHeap.heapsort();
+    words = wordHeap.getSortedArray();
+}
+
 //Overloaded output operator to print all words in dictionary
 ostream& operator<<(ostream& os, const dictionary& dict)
 {
@@ -113,4 +122,5 @@ ostream& operator<<(ostream& os, const dictionary& dict)
 		os << dict.words[i] << endl;
 	}
 	return os;
+
 }
